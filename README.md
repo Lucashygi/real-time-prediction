@@ -9,24 +9,24 @@ o modelo.
 ## 🤖 **EfficientDet**  
 Nessa primeira etapa, iremos preparar o ambiente para a arquitetuta *EfficientDet*.
 
-> 🤖 1. Primeira Etapa: Abra o terminal na raiz do projeto execute o seguinte</br>
+🤖 1. Primeira Etapa: Abra o terminal na raiz do projeto execute o seguinte</br>
 comando para clonar o repositorio que contem os scrips necessários.<br/>
 ```
 $	python script/clone.py
 ```
 
-> 🤖 2. Segunda Etapa: Instalar o *protobuf releases* em seu sistema operacional, </br>
+🤖 2. Segunda Etapa: Instalar o *protobuf releases* em seu sistema operacional, </br>
 caso você não tenha. Para isso, deixarei um tutorial que você possar estar seguindo </br>
 para efetuar a instalação;<br/>
 
 [![Tutorial Youtube](https://img.shields.io/badge/youtube-red.svg?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=ES_GI-lmhEU)
 
-> 🤖 3. Terceira Etapa: Instalar dependecias via *PROTOBUF*, com o protobuf instalado
+🤖 3. Terceira Etapa: Instalar dependecias via *PROTOBUF*, com o protobuf instalado
 abra o terminal na raiz do projeto e execute:
 ```
 $ protoc models/research/object_detection/protos/*.proto --python_out=.
 ```
->em seguida, execute:
+em seguida, execute:
 ```
 $ python models/research/object_detection/packages/tf2/setup.py install
 ```
@@ -37,10 +37,10 @@ principal.
 
 Agora que você ja preparou o Ambiente e esta tudo pronto, vamos organizar os </br>
 arquivos necessarios, que são eles:
-> * 📁 *pipeline_file.config* ou *pipeline.config*
-> * 📁 *label_map.pbtxt*
-> * 📁 *(model ckpt)*
-> * 📁 *(weight ckpt)*
+* 📁 *pipeline_file.config* ou *pipeline.config*
+* 📁 *label_map.pbtxt*
+* 📁 *(model ckpt)*
+* 📁 *(weight ckpt)*
 
 Esses 4 são os principais arquivos para a nossa inferência. Quando você terminou</br>
 de treinar o seu modelo customizado no Beegeye, foi gerado todos essesa arquivos</br>
@@ -77,11 +77,11 @@ ou você pode estar encontrando os últimos checkpoints gerados na pasta drive:
 Bem, possuindo todos os arquivos listado acima, agora você deve armazerna-los </br>
 dentro das seguintes pastas:
 
-> ✔ pipeline_file.config dentro da pasta models/efficientdet
+✔ pipeline_file.config dentro da pasta models/efficientdet
 
-> ✔ label_map.pbtxt dentro da pasta models/efficientdet
+✔ label_map.pbtxt dentro da pasta models/efficientdet
 
-> ✔ ckpts dentro da pasta models/efficientdet
+✔ ckpts dentro da pasta models/efficientdet
 
 Feito isso, abra o script `real-time-prediction.py` e verifique nas seguinte </br>
 linhas 46 ao 51 as seguintes variaveis.
@@ -101,10 +101,10 @@ Verifique as variaveis e o caminho que corresponde a cada um dos arquivos.
 
 ### 🚨 **Atenção - As seguite variaveis** 🚨 
 
->✔ inputVideo representa a variavel que carregará o video, webcam ou qualquer </br>
+✔ inputVideo representa a variavel que carregará o video, webcam ou qualquer </br>
 outra entrada de video, altere essa variavel.
 
->✔ outputVideo - Gravara a predição em  formato de video.
+✔ outputVideo - Gravara a predição em  formato de video.
 
 
 Portanto, com essas etapas você deve conseguir com sucesso realizar  inferencia </br>
@@ -122,4 +122,3 @@ disponibiliza, só lembre de usar os ckpts, importante, `ckpt-index` e `ckpt.dat
 [![Tutorial Youtube](https://img.shields.io/badge/WhatsApp-gree.svg?logo=WhatsApp&logoColor=white)](https://api.whatsapp.com/send?phone=5547991081602)  
 
 [![Tutorial Youtube](https://img.shields.io/badge/Email-blue.svg?logo=microsoft-outlook&logoColor=white)](https://api.whatsapp.com/send?phone=5547991081602)
-
