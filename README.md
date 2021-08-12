@@ -86,16 +86,16 @@ dentro das seguintes pastas:
 Feito isso, abra o script `real-time-prediction.py` e verifique nas seguinte </br>
 linhas 46 ao 51 as seguintes variaveis.
 
-~~~~python
+~~~python
 46 pipeline_config  = './models/efficientdet/pipeline_file.config'
 47 label_map_path   = './models/efficientdet/label_map.pbtxt'
 # Altere o numero do ckpt para o numero que corresponde ao seu chekpoint
 48 model_dir 	    = './models/efficientdet/ckpt-2' 
 49 checkpoint	    = './models/efficientdet/ckpt-2'
 
-50 inputVideo  		= './videos/input.mp4' # or 0 to started Webcan
-51 outputVideo 		= './output.mp4'
-~~~~
+50 inputVideo  	    = './videos/input.mp4' # or 0 to started Webcan
+51 outputVideo      = './output.mp4'
+~~~
 
 Verifique as variaveis e o caminho que corresponde a cada um dos arquivos. 
 
