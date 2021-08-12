@@ -114,7 +114,7 @@ do seu modelo treinado através do BeegEye em Tempo real para a arquitetura **Ef
 ### 👀 **OBSERVAÇÃO** 👀
 
 Você pode tentar usar esse mesmo script para as outras arquiteturas que o BeegEye </br>
-disponibiliza, só lembre de usar os ckpts, importante, `ckpt-index` e `ckpt.data`.
+disponibiliza, só lembre de usar os ckpts principais `ckpt-index` e `ckpt.data`.
 
 
 ## 📱 **Qualquer Dúvida ou Erros, entre em Contato via:**
