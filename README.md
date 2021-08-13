@@ -1,3 +1,12 @@
+![](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) 
+![](https://img.shields.io/badge/TensorFlow-FF6F00?logo=TensorFlow&logoColor=white)
+![](https://img.shields.io/badge/Visual_Studio-5C2D91?logo=visual%20studio&logoColor=white)
+![](https://img.shields.io/badge/Keras-D00000?logo=Keras&logoColor=white)
+![](https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white)
+![](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
+![](https://img.shields.io/badge/BeegEye-FFD900?logo=data:tools/Bee-24.png;base64-encoded)
+
+
 # **Como realizar a inferência do seu modelo de detecção de objetos em Tempo Real** ⏳🤖👩‍💻💻
 
 Depois que você treinou e validou o seu modelo no *Google Colab*, agora iremos validar o seu modelo realizando inferência em tempo real ou em video.
@@ -12,8 +21,6 @@ nosso modelo, portanto iremos divir esse tutorial nas seguintes etapas:
 5. Executar o script e correr para o abraço;
 
 Nesse primeiro momento, esse tutorial se refere a Arquitetura EfficientDet;
-
-![](https://img.shields.io/badge/Visual_Studio-5C2D91?logo=visual%20studio&logoColor=white)
 
 ## Executando as Etapas:
 
@@ -38,17 +45,17 @@ como a representação da imagem.
 ▶ Com o instalador aberto, siga as instruções das imagens abaixo clickando nas áreas
 demarcadas:
 
-## **Passo 1**
+## 🔝 **Passo 1**
 ▶ Click em modificar para abrir os pacotes disponiveis
 
 <img src="images\visual-studio-installer-modificar.png" alt="model_saved" style="height: 360px; width:780px;"/>
 
-## **Passo 2**
+## 🔝 **Passo 2**
 ▶ Em seguida, seleciona o pacote e click em 'modificar' para começar a instalação
 
 <img src="images\visual-studio-installer-instalacao.png" alt="model_saved" style="height: 360px; width:780px;"/>
 
-## **Passo 3**
+## 🔝 **Passo 3**
 ▶ Após o passo 2, a instalação deve começar
 
 <img src="images\visual-studio-installer-instalacao-processo.png" alt="model_saved" style="height: 360px; width:780px;"/>
