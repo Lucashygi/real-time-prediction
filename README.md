@@ -4,8 +4,6 @@
 ![](https://img.shields.io/badge/Keras-D00000?logo=Keras&logoColor=white)
 ![](https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white)
 ![](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
-![](https://img.shields.io/badge/BeegEye-FFD900?logo=data:tools/Bee-24.png;base64-encoded)
-
 
 # **Como realizar a inferência do seu modelo de detecção de objetos em Tempo Real** ⏳🤖👩‍💻💻
 
